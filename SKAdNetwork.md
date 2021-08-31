@@ -15,6 +15,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;- 유저의 행동패턴, ATT 옵트-인 유저의 IDFA 등 수집 가능 데이터를 토대로, **고유 식별정보를 재생산하지 않고** 유저 설치경로를 추정  
 &nbsp;&nbsp;&nbsp;&nbsp;- 당연히 각 MMP마다 자신들이 사용하는 확률적 모델링 알고리즘은 다를 수 밖에 없음  
 &nbsp;&nbsp;&nbsp;&nbsp;- 현재 구글은 GA의 UTM을 활용한 통계 가공을 통해 확률적 모델링 중([관련문서](https://support.google.com/google-ads/answer/10625151?hl=en&ref_topic=3122882#zippy=%2Cwhats-the-difference-between-the-reporting-i-see-for-app-campaigns-and-the-skadnetwork-report-also-what-will-be-available-in-app-attribution-partner-reporting%2Cwhat-reporting-details-should-i-expect-for-conversion-data-captured-through-the-new-url-parameters%2Cis-it-possible-to-observe-longer-delays-for-some-of-my-app-campaigns-on-ios-as-a-result-of-conversion-modeling%2Chow-will-the-new-url-parameters-work-when-the-ad-interaction-occurs-on-a-non-google-site-will-advertisers-need-to-send-google-the-parameter-themselves%2Cin-what-cases-would-these-new-url-parameters-be-used%2Chow-will-skadnetwork-conversion-values-work-with-app-campaigns%2Chow-does-google-model-conversions-when-there-is-no-shared-identifier-between-ad-interactions-and-conversions-or-when-conversions-cant-be-measured))  
+&nbsp;&nbsp;&nbsp;&nbsp;- 현재 앱스플라이어는 64비트 전환값에 대한 전략적인 활용과, 기존까지 전환별 가중치 관리를 해왔었던 데이터들을 토대로 머신러닝을 함으로써 확률적 모델링 중([관련문서](https://www.appsflyer.com/kr/blog/skadnetworks-conversion-values-power/))  
 
 ## SKAN(SKAdNetwork)이란
 
